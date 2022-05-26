@@ -1,0 +1,68 @@
+.intro {
+    display: flex;
+    height: 100hv;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l-wrapper {
+    padding: 50px;
+    height: 80%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right {
+    flex: 1;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.pres-moi {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.acti {
+    height: 50px;
+    overflow: hidden;
+}
+
+.acti-wrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+.acti-item {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
