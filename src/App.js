@@ -1,9 +1,12 @@
 import Intro from './Components/intro/Intro';
-import Home from './Components/intro/Intro';
+import About from './Components/about/About';
 
 function App() {
   return (
-    <Intro/>
+    <div>
+      <Intro/>
+      <About/>
+    </div>
   );
 }
 
