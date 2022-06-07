@@ -12,6 +12,8 @@ function Intro() {
           <div className='acti'>
             <div className='acti-wrapper'>
               <div className='acti-item'>Cours en ligne</div>
+              <div className='acti-item'>Cours en ligne</div>
+              <div className='acti-item'>Cours en ligne</div>
               <div className='acti-item'>Tutorat</div>
               <div className='acti-item'>Cybersecurity challenge</div>
               <div className='acti-item'>Root-me</div>
