@@ -1,9 +1,9 @@
 import React from 'react'
-import './sidebar.css'
+import './sidebar.scss'
 import Logo from '../../img/logo.png'
 import { NavLink, Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faSheetPlastic, faTable, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function sidebar() {
@@ -17,10 +17,10 @@ function sidebar() {
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="cv-link" to="/cv">
-                <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faSheetPlastic} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="tabl-link" to="/tab">
-                <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+            <NavLink exact="true" activeclassname="active" className="tab-link" to="/activites">
+                <FontAwesomeIcon icon={faTable} color="#4d4d4e" />
             </NavLink>
         </nav>
         <ul>

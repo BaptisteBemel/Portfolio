@@ -11,12 +11,12 @@ function Intro() {
           <h2 className='acti-title'>Acti valorisées</h2>
           <div className='acti'>
             <div className='acti-wrapper'>
-              <div className='acti-item'>Cours en ligne</div>
-              <div className='acti-item'>Cours en ligne</div>
-              <div className='acti-item'>Cours en ligne</div>
+              <div className='acti-item'>Service d'annuaire LDAP</div>
+              <div className='acti-item'>Programmation web</div>
+              <div className='acti-item'>Progammation applicative</div>
               <div className='acti-item'>Tutorat</div>
-              <div className='acti-item'>Cybersecurity challenge</div>
-              <div className='acti-item'>Root-me</div>
+              <div className='acti-item'>Hackathon</div>
+              <div className='acti-item'>Sécurité informatique</div>
               <div className='acti-item'>Activités non-techniques</div>
             </div>
           </div>  
@@ -24,6 +24,7 @@ function Intro() {
             20 ans belge, etudiant 3ème ephec voici mon protfolio blabla
           </p>        
         </div>
+        {/*
         <svg
           width="75"
           height="75"
@@ -79,7 +80,7 @@ function Intro() {
               />
             </g>
           </g>
-        </svg>
+        </svg>*/}
       </div>
       <div className='right'>
         <div className='r-bg'></div>
