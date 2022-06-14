@@ -30,12 +30,13 @@ thead {
 td {
     padding: 3px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: 1px solid;
 }
 
 th {
     padding: 3px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darksalmon;
+    /*background-color: darksalmon;*/
 }
 
 .preuve {
@@ -54,4 +55,8 @@ h2{
 p{
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tut1 {
+    margin-right: 1%;
 }

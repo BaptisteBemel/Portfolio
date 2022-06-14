@@ -42,7 +42,7 @@
 
 .acti-wrapper {
     height: 100%;
-    animation: move 30s ease-in-out infinite alternate;
+    animation: move 25s ease-in-out infinite alternate;
 }
 
 @keyframes move {

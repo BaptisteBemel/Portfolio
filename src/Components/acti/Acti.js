@@ -4,19 +4,22 @@ import ocr from '../../img/ocr.png'
 import rootme from '../../img/rootme.png'
 import tutorat from '../../img/tutorat.png'
 import tutorat2 from '../../img/tutorat2.png'
+import cybersec from '../../img/cybsec.png'
+import cybersec2 from '../../img/cybsec2.png'
+import erasm from '../../img/erasmus.png'
 
 function Acti() {
   return (
     <div className='actipage'>
         <div className='titreTab'>
-            <h1 id='titretab'>Titre</h1>
+            <h1 id='titretab'>Activités du Portfolio</h1>
         </div>
         <section className='tableau'>
             <table>
                 <thead>
                     <th>Thème</th>
                     <th>Activité</th>
-                    <th>N° heures valorisées</th>
+                    <th>Heures valorisées</th>
                     <th>Activités du thème</th>
                 </thead>
                 <tbody>
@@ -96,15 +99,16 @@ function Acti() {
         <div className='preuve'>
             <h1>Détail des différents thèmes</h1>
             <div id='tutorat'>
-                <h2>Turorat</h2>
+                <h2>Tutorat</h2>
                 <p>Texte</p>
-                <img src={tutorat} />
+                <img src={tutorat} id="tut1" />
                 <img src={tutorat2} />
             </div>
             <div id='hackathon'>
                 <h2>Hackathon</h2>
                 <p>Texte</p>
-                <img />
+                <img src={cybersec} id="cyb1" />
+                <img src={cybersec2} />
             </div>
             <div id='web'>
                 <h2>Programmation WEB</h2>
@@ -117,19 +121,19 @@ function Acti() {
                 <a href="#web">Voir la preuve</a>
             </div>
             <div id='ldap'>
-                <h2>ldap</h2>
+                <h2>Service d'annuaire LDAP</h2>
                 <p>Texte</p>
                 <a href="#web">Voir la preuve</a>
             </div>
             <div id='secu'>
-                <h2>secu</h2>
+                <h2>Sécurité informatique</h2>
                 <p>Texte</p>
                 <img src={rootme} width="90%" />
             </div>
             <div id='notech'>
-                <h2>notech</h2>
+                <h2>Activités non-techniques</h2>
                 <p>Texte</p>
-                <img />
+                <img src={erasm} />
             </div>
         </div>
     </div>
