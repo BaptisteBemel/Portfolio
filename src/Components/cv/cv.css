@@ -31,6 +31,7 @@ h1{
     color: rgb(35, 59, 59);
     margin-left: 20%;
     margin-top: 20%;
+    text-decoration: underline;
 }
 
 button {

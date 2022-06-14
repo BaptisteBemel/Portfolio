@@ -1,12 +1,15 @@
 import React from 'react'
 import './acti.css'
-import { Link } from 'react-router-dom'
+import ocr from '../../img/ocr.png'
+import rootme from '../../img/rootme.png'
+import tutorat from '../../img/tutorat.png'
+import tutorat2 from '../../img/tutorat2.png'
 
 function Acti() {
   return (
     <div className='actipage'>
         <div className='titreTab'>
-            
+            <h1 id='titretab'>Titre</h1>
         </div>
         <section className='tableau'>
             <table>
@@ -22,9 +25,9 @@ function Acti() {
                         <td>Turorat math et programmation</td>
                         <td>9</td>
                         <td>
-                            <Link to='/activites/tutorat'>
-                                <button />
-                            </Link>
+                            <a href='#tutorat'>
+                                <button>Voir</button>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -32,9 +35,9 @@ function Acti() {
                         <td>Cybersecurity Challenge</td>
                         <td>10</td>
                         <td>
-                            <Link to='/activites/hackathon'>
-                                <button />
-                            </Link>
+                            <a href='#hackathon'>
+                                <button>Voir</button>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -42,9 +45,9 @@ function Acti() {
                         <td>OpenClassRooms: jQuery</td>
                         <td>7</td>
                         <td>
-                            <Link to='/activites/web'>
-                                <button />
-                            </Link>
+                            <a href='#web'>
+                                <button>Voir</button>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -52,9 +55,9 @@ function Acti() {
                         <td>OpenClassRooms: Java</td>
                         <td>7</td>
                         <td>
-                            <Link to='/activites/progra'>
-                                <button />
-                            </Link>
+                            <a href='#progra'>
+                                <button>Voir</button>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -62,9 +65,9 @@ function Acti() {
                         <td>OpenClassRooms: Active Directory</td>
                         <td>7</td>
                         <td>
-                            <Link to='/activites/ldap'>
-                                <button />
-                            </Link>
+                            <a href='#ldap'>
+                                <button>Voir</button>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -72,9 +75,9 @@ function Acti() {
                         <td>root-me</td>
                         <td>10</td>
                         <td>
-                            <Link to='/activites/secu'>
-                                <button />
-                            </Link>
+                            <a href='#secu'>
+                                <button>Voir</button>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -82,14 +85,53 @@ function Acti() {
                         <td>Erasmus</td>
                         <td>10</td>
                         <td>
-                            <Link to='/activites/notech'>
-                                <button />
-                            </Link>
+                            <a href='#notech'>
+                                <button>Voir</button>
+                            </a>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </section>
+        <div className='preuve'>
+            <h1>Détail des différents thèmes</h1>
+            <div id='tutorat'>
+                <h2>Turorat</h2>
+                <p>Texte</p>
+                <img src={tutorat} />
+                <img src={tutorat2} />
+            </div>
+            <div id='hackathon'>
+                <h2>Hackathon</h2>
+                <p>Texte</p>
+                <img />
+            </div>
+            <div id='web'>
+                <h2>Programmation WEB</h2>
+                <p>Texte</p>
+                <img src={ocr} width="60%" height="90%" />
+            </div>
+            <div id='progra'>
+                <h2>Programmation applicative</h2>
+                <p>Texte</p>
+                <a href="#web">Voir la preuve</a>
+            </div>
+            <div id='ldap'>
+                <h2>ldap</h2>
+                <p>Texte</p>
+                <a href="#web">Voir la preuve</a>
+            </div>
+            <div id='secu'>
+                <h2>secu</h2>
+                <p>Texte</p>
+                <img src={rootme} width="90%" />
+            </div>
+            <div id='notech'>
+                <h2>notech</h2>
+                <p>Texte</p>
+                <img />
+            </div>
+        </div>
     </div>
   )
 }

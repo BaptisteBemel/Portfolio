@@ -3,7 +3,7 @@ import './sidebar.scss'
 import Logo from '../../img/logo.png'
 import { NavLink, Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faSheetPlastic, faTable, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faSheetPlastic, faTable } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function sidebar() {

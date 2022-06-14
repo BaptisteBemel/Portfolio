@@ -3,11 +3,55 @@
     margin-left: 4.55%;
     height: 100%;
     background-color: lightslategrey;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.titretab{
+    display: flex;
 }
 
 .tableau {
-    flex: 1;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: 30px;
+    margin: 7%;
+    height: 50%;
+    border: 1px solid brown;
+    background-color: blanchedalmond;
+}
+
+thead {
+    text-decoration: underline;
+}
+
+td {
+    padding: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+    padding: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darksalmon;
+}
+
+.preuve {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 4.55%;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(35, 59, 59);
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
