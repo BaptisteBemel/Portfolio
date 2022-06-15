@@ -13,13 +13,13 @@ function sidebar() {
             <img src={Logo} />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink exact="true" activeclassname="active" to="/Portfolio/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="cv-link" to="/cv">
+            <NavLink exact="true" activeclassname="active" className="cv-link" to="/Portfolio/cv">
                 <FontAwesomeIcon icon={faSheetPlastic} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="tab-link" to="/activites">
+            <NavLink exact="true" activeclassname="active" className="tab-link" to="/Portfolio/activites">
                 <FontAwesomeIcon icon={faTable} color="#4d4d4e" />
             </NavLink>
         </nav>
