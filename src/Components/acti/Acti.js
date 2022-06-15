@@ -64,7 +64,7 @@ function Acti() {
                         </td>
                     </tr>
                     <tr>
-                        <td>Service d'annuaire LDAP</td>
+                        <td>Service d'annuaire AD</td>
                         <td>OpenClassRooms: Active Directory</td>
                         <td>7</td>
                         <td>
@@ -121,7 +121,7 @@ function Acti() {
                 <a href="#web">Voir la preuve</a>
             </div>
             <div id='ldap'>
-                <h2>Service d'annuaire LDAP</h2>
+                <h2>Service d'annuaire Active Directory</h2>
                 <p>Texte</p>
                 <a href="#web">Voir la preuve</a>
             </div>
