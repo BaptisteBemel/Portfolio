@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.css"
-import Doge from "../../img/Doge.png"
+import Tete from "../../img/tete.jpg"
 
 function Intro() {
   return (
@@ -33,7 +33,7 @@ function Intro() {
       </div>
       <div className='right'>
         <div className='r-bg'></div>
-        <img src={Doge} alt='' className='image' />
+        <img src={Tete} alt='' className='image' />
       </div>
     </div>
   )
