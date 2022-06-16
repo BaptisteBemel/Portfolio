@@ -100,39 +100,39 @@ function Acti() {
             <h1>Détail des différents thèmes</h1>
             <div id='tutorat'>
                 <h2>Tutorat</h2>
-                <p>Texte</p>
+                <p>Lors de ma deuxième et troisième année à l'EPHEC, j'ai été tuteur de trois élèves en informatique et en programmation.</p>
                 <img src={tutorat} id="tut1" />
                 <img src={tutorat2} />
             </div>
             <div id='hackathon'>
                 <h2>Hackathon</h2>
-                <p>Texte</p>
+                <p>Avec trois autres élèves de l'EPHEC, nous avons participés au hackathon "Cybersecurity Challenge" en 2021 et avons fini à la 74ème position, en première position parmis les équipes de l'EPHEC.</p>
                 <img src={cybersec} id="cyb1" />
                 <img src={cybersec2} />
             </div>
             <div id='web'>
                 <h2>Programmation WEB</h2>
-                <p>Texte</p>
+                <p>J'ai réalisé une formation en ligne sur OpenClassRooms lors de ma première année à l'EPHEC afin d'apprendre le jQuery.</p>
                 <img src={ocr} width="60%" height="90%" />
             </div>
             <div id='progra'>
                 <h2>Programmation applicative</h2>
-                <p>Texte</p>
+                <p>Pour pouvoir participer à un projet de développement lors de mon Erasmus, j'ai appris, via une formation OpenClassRooms, le language de programmation Java.</p>
                 <a href="#web">Voir la preuve</a>
             </div>
             <div id='ldap'>
                 <h2>Service d'annuaire Active Directory</h2>
-                <p>Texte</p>
+                <p>J'ai réalisé une formation en ligne sur OpenClassRooms afin de comprendre le fonctionnement des service d'annuaire Active Directory de Microsoft+.</p>
                 <a href="#web">Voir la preuve</a>
             </div>
             <div id='secu'>
                 <h2>Sécurité informatique</h2>
-                <p>Texte</p>
+                <p>Root-me est une plateforme d'apprentissage à la sécurité informatique offrant des challenges similaires à ceux des Capture the Flag. Afin de m'améliorer dans ce domaine, j'ai réalisé certains de ces challenges et ait étudié les ressources mises à disposition.</p>
                 <img src={rootme} width="90%" />
             </div>
             <div id='notech'>
                 <h2>Activités non-techniques</h2>
-                <p>Texte</p>
+                <p>Pour le premier quadrimestre de ma 3ème année de bachelier, j'ai réalisé un Erasmus en Bavière, dans l'université Otto-Friedrich de Bamberg.</p>
                 <img src={erasm} />
             </div>
         </div>
