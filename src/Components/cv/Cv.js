@@ -8,7 +8,7 @@ function Cv() {
         <iframe classname='frame' src="https://drive.google.com/file/d/1Il1k43t1hbzJjbVGNcYJ85QiKeqJXgKI/preview"/>
       </div>
       <div className='right'>
-        <h1>Curriculum Vitæ</h1>
+        <h1 id='cvtitre'>Curriculum Vitæ</h1>
         <a href="/Portfolio/pdf/CV_2022-06-12_Baptiste_Bemelmans.pdf" download="CV_Baptiste_Bemelmans_2022">
           <button id="dlcv">Télécharger</button>
         </a>

@@ -25,8 +25,8 @@ iframe {
     position: relative;
 }
 
-h1{
-    font-size: 60px;
+#cvtitre {
+    font-size: 400%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(35, 59, 59);
     margin-left: 20%;
@@ -48,4 +48,10 @@ button {
 
 #dlcv {
     overflow: auto;
+}
+
+@media screen and (max-width: 480px) {
+    iframe {
+        height: 30%;
+    }
 }
