@@ -9,14 +9,15 @@
     min-height: 500px;
 
     .logo {
-        display: block;
+        display: flex;
         padding: 8px 0; 
 
         img {
-            display: block;
+            display: flex;
             margin: 8px auto;
             width: 70px;
             height: auto;
+            overflow: hidden;
         }
     }
 }

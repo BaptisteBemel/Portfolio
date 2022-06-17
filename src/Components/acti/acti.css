@@ -7,8 +7,18 @@
     overflow: auto;
 }
 
-.titretab{
+#titretab {
     display: flex;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#detail {
+    display: flex;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .tableau {
@@ -59,4 +69,13 @@ p{
 
 #tut1 {
     margin-right: 1%;
+}
+
+.voir {
+    width: 30%;
+    overflow: auto;
+}
+
+#web {
+    margin-bottom: 5%;
 }

@@ -10,7 +10,7 @@ function Cv() {
       <div className='right'>
         <h1>Curriculum Vitæ</h1>
         <a href="/Portfolio/pdf/CV_2022-06-12_Baptiste_Bemelmans.pdf" download="CV_Baptiste_Bemelmans_2022">
-          <button>Télécharger</button>
+          <button id="dlcv">Télécharger</button>
         </a>
       </div>
     </div>

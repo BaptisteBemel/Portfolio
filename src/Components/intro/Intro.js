@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.css"
-import Tete from "../../img/tete.jpg"
+import Tete from "../../img/tete.png"
 
 function Intro() {
   return (
